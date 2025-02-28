@@ -15,7 +15,7 @@ This project is an **Optical Character Recognition (OCR) system for invoice proc
 ## Project Structure
 ```
 Invoice-OCR/
-│── OCR_Packaged_Final_Multiple_Templates.ipynb           # Main OCR processing script and data storage script
+│── OCR_Packaged_Final_Multiple_Templates.py           # Main OCR processing script and data storage script
 │── requirements.txt         # Required Python packages
 │── README.md                # Project documentation
 │── images/
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ## Usage
 ### 1. Run the OCR System
 ```sh
-python ocr_invoice.py
+OCR_Packaged_Final_Multiple_Templates.py
 ```
 - The script will prompt you to enter the company name (**Amazon, Flipkart, or Myntra**).
 - It will process the invoice image, extract relevant details, and store them in the database.
