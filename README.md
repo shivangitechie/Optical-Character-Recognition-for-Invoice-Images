@@ -81,8 +81,6 @@ CREATE TABLE invoices (
 - Add support for additional invoice templates.
 - Implement a web-based UI for easy invoice uploading and data visualization.
 
-## License
-This project is licensed under the MIT License.
 
 ## Contact
 For any issues or contributions, feel free to reach out or create a pull request on GitHub.
