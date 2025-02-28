@@ -15,11 +15,12 @@ This project is an **Optical Character Recognition (OCR) system for invoice proc
 ## Project Structure
 ```
 Invoice-OCR/
-│── ocr_invoice.py           # Main OCR processing script
-│── database.py              # Database connection and storage logic
+│── OCR_Packaged_Final_Multiple_Templates.ipynb           # Main OCR processing script and data storage script
 │── requirements.txt         # Required Python packages
 │── README.md                # Project documentation
 │── images/
+│   |── amazon_ie.png  # Invoice sample (Ireland)
+│   |── amazon_us.png  # Invoice sample (US)
 │   │── amazon_ie_boxes.png  # Processed invoice sample (Ireland)
 │   │── amazon_us_boxes.png  # Processed invoice sample (US)
 │   │── invoices_db.png      # Screenshot of MySQL database
